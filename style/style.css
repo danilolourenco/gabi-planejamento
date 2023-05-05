@@ -34,25 +34,33 @@ header > h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.513);
 }
 
-header > h2 {
+header > p {
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.8em;
+    padding-bottom: 20px;
     padding-right: 680px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.513);
 }
 
-header > a {
+nav > a {
+    background-color: var(--cor0);
     color: white;
-    padding: 10px;
+    padding: 8px;
+    padding-inline: 20px;
     margin-right: 20px;
     margin-left: 20px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
 }
-header > a:hover {
+nav > a:hover {
     background-color: var(--cor3);
     color: var(--cor0);
+}
+
+main > article > h1 {
+    color: var(--cor0);
+    background-color: var(--cor3);
 }
