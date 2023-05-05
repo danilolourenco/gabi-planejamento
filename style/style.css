@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+:root {
+
+    --cor0: #b57c00;
+    --cor1: #d09306;
+    --cor2: #ecab0f;
+    --cor3: #f7d547;
+    --cor4: #ffff72;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+
+}
+
+body {
+    background-color: var(--cor4);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: var(--cor0);
+    border-radius: 10px;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    padding-right: 680px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.513);
+}
+
+header > h2 {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.8em;
+    padding-right: 680px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.513);
+}
+
+header > a {
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+header > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor0);
+}
