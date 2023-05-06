@@ -19,6 +19,7 @@ body {
 }
 
 header {
+    background-image: url(img/foto03-header.png);
     background-color: var(--cor0);
     border-radius: 10px;
     min-height: 150px;
@@ -48,11 +49,10 @@ header > p {
 nav > a {
     background-color: var(--cor0);
     color: white;
-    padding: 8px;
+    padding: 15px;
     display: inline-block;
     padding-inline: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: auto;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -60,6 +60,18 @@ nav > a {
 nav > a:hover {
     background-color: var(--cor3);
     color: var(--cor0);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--cor3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.468);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 main > article > h1 {
@@ -103,14 +115,32 @@ div#q1 {
 footer {
     background-color: var(--cor0);
     color: white;
+    border-radius: 5px;
+}
+
+footer > p {
+    font-weight: bold;
+    font-size: 1.4em;
 }
 
 div.contatos {
     text-align: center;
     display: inline-block;
     background-color: blue;
-    border: 2px solid black;
+    border: 0.5px solid rgba(0, 0, 0, 0.405);
     border-radius: 8px;
-    width: 80px;
+    width: 40px;
     height: 40px;
+}
+
+div#c1 {
+    
+}
+
+div#c2 {
+
+}
+
+div#c3 {
+
 }
