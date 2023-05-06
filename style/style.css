@@ -15,6 +15,7 @@
 body {
     background-color: var(--cor4);
     font-family: var(--fonte-padrao);
+    text-align: center;
 }
 
 header {
@@ -48,6 +49,7 @@ nav > a {
     background-color: var(--cor0);
     color: white;
     padding: 8px;
+    display: inline-block;
     padding-inline: 20px;
     margin-right: 20px;
     margin-left: 20px;
@@ -63,4 +65,52 @@ nav > a:hover {
 main > article > h1 {
     color: var(--cor0);
     background-color: var(--cor3);
+}
+
+main > article > p {
+    text-align: center;
+    display: inline-block;
+    background-color: var(--cor2);
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 200px;
+    width: 780px;
+}
+
+
+div.pacote {
+    text-align: center;
+    display: inline-block;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+}
+
+div#q1 {
+
+}
+
+div#q1 {
+    
+}
+
+div#q1 {
+    
+}
+
+footer {
+    background-color: var(--cor0);
+    color: white;
+}
+
+div.contatos {
+    text-align: center;
+    display: inline-block;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 80px;
+    height: 40px;
 }
