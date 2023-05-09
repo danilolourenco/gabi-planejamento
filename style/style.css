@@ -20,17 +20,18 @@ body {
 
 
 header {
-    background-color: var(--cor1);
+    background-image: linear-gradient(#b57c00, #ecab0f);
     border-radius: 10px;
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
 }
 
-header > h1 {
+div.caixa  h1 {
     box-shadow: 1px;
 
 }
+
 
 nav > a {
     background-color: var(--cor0);
