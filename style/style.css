@@ -19,7 +19,7 @@
 
 body {
     background-color: var(--cor4);
-    font-family: var(--fonte-padrao)
+    font-family: var(--fonte-padrao);
     text-align: center;
 }
 
@@ -39,6 +39,11 @@ div.caixa  h1 {
 
 }
 
+.paragrafo {
+    font-size: 2em;
+    margin: auto;
+
+}
 
 nav > a {
     background-color: var(--cor0);
